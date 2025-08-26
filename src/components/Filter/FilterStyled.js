@@ -27,6 +27,7 @@ export const Input = styled.input`
   font-weight: 400;
   color: ${({ theme }) => theme.colors.black};
   font-family: "Montserrat", sans-serif;
+  border-radius: 0;
 
   &::placeholder {
     font-size: 14px;
